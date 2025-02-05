@@ -1,0 +1,14 @@
+﻿@CityInfo.API_HostAddress = https://localhost:7165
+
+@name=string
+@searchQuery=string
+@pageNumber=1
+@pageSize=5
+GET {{CityInfo.API_HostAddress}}/api/v2/cities?pageNumber={{pageNumber}}&pageSize={{pageSize}}
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwiZ2l2ZW5fbmFtZSI6IlJ1Y2hpIiwiZmFtaWx5X25hbWUiOiJTaGFybWEiLCJjaXR5IjoiSlNSIiwibmJmIjoxNzM3NTI0MDU3LCJleHAiOjE3Mzc1Mjc2NTcsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxNjUiLCJhdWQiOiJjaXR5aW5mb2FwaSJ9.Gjwtv89fa_CuPvsGXd4GOSGQ80eoZFTnL5O-6ZpDnDw
+###
+
+@cityid=1
+GET {{CityInfo.API_HostAddress}}/api/v2/cities/{{cityid}}/pointsofinterest?api-version=2
+
+###

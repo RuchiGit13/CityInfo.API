@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CityInfo.API</name>
+    </assembly>
+    <members>
+        <member name="M:CityInfo.API.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+            Get city by passing id
+            </summary>
+            <param name="id">Id of the city</param>
+            <param name="includePointsOfInterest">Do you want to include POI</param>
+            <response code="200">Returns the requested city</response>
+            <returns>A city with or without points of interest</returns>
+        </member>
+        <member name="T:CityInfo.API.Migrations.CityInfoDBInitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBInitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBInitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBInitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.CityInfoDBAddPOIDescription">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddPOIDescription.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddPOIDescription.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddPOIDescription.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.CityInfoDBAddData">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.CityInfoDBAddData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Migrations.AddBlogCreatedTimestamp">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.AddBlogCreatedTimestamp.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.AddBlogCreatedTimestamp.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CityInfo.API.Migrations.AddBlogCreatedTimestamp.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CityInfo.API.Models.CityDtoWithoutPOI">
+            <summary>
+            Model to hold city details without POI
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDtoWithoutPOI.Id">
+            <summary>
+            Id of the city
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDtoWithoutPOI.Name">
+            <summary>
+            Name of the city
+            </summary>
+        </member>
+    </members>
+</doc>
